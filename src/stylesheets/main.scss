@@ -1,3 +1,162 @@
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+// header stylin
+
+header {
+    background-color: #013D67;
+    padding: 3rem 3rem;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.orangeLogo {
+    width: 50em;
+    height: 100%;
+    
+}
+
+.navbar {
+    --bs-navbar-color: #013D67;
+    --bs-navbar-hover-color: #3C2E26;
+
+}
+
+.theNav {
+    display: flex;
+    color: #013D67;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.theNav > ul > li {
+    list-style: none;
+    font-size: 2.0rem;
+    margin-left: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+
+}
+
+.theNav > ul > li:hover {
+    background-color: #70E6E5;
+    text-align: center;
+}
+
+footer {
+    background-color: #013D67;
+    color: white;
+}
+
+// jumbotron stylin
+.jumbotron{
+    min-height: 800px;
+    background-image: url("../images/wolf-schram-19t6J2RVqQE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#013D67;
+    font-size: 1.5rem;
+    
+}
+
+form {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.custom-jumbotron-color h1 {
+    color: #E69B70;
+    font-weight: 1000;
+}
+
+label {
+    font-weight: 800;
+}
+
+
+// carousel style
+.myCarousel{
+    height: 300px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
+
+}
+
+// footer style
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding: 3rem 3rem;
+    font-size: 1.3rem;
+}
+
+.privacy-policy, .terms{
+    text-decoration: none;
+    color: #E69B70;
+}
+
+.copyright{
+    align-items: center;
+}
+
+ .terms:hover{
+    color: #70E6E5;
+}
+
+.privacy-policy:hover{
+    color: #70E6E5;
+}
+
+.verticallogo {
+    width: 20em;
+}
+
+.social-links:hover{
+    color: #E69B70;
+}
+
+.add-links{
+    color: #70E6E5;
+}
+
+.add-links:hover{
+    color: #E69B70;
+}
+
+.phone{
+    text-decoration: none;
+    color: #70E6E5;
+}
+
+.phone:hover{
+    color: #E69B70;
+}
